@@ -1,0 +1,29 @@
+.button {
+  width: 100px;
+  height: 50px;
+  transition: 0.3s;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  background-color: green;
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  background-color: yellow;
+  transition: 0.3s;
+  color: red;
+}
+
+.button:not(:last-child) {
+  margin-right: 30px;
+}
+
+.button_wrapper {
+  display: flex;
+  justify-content: center;
+}

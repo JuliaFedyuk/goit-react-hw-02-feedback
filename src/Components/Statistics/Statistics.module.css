@@ -1,0 +1,28 @@
+body {
+  background-image: url(../Statistics/retina_wood.png);
+}
+
+.statistics_wrapper {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: brown;
+  font-weight: 600;
+}
+
+.votes {
+  display: flex;
+  justify-content: center;
+}
+
+.statistics_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+}
+
+.statistics_total:not(:last-child) {
+  margin-right: 30px;
+}
