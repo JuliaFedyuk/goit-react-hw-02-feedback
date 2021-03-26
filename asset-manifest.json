@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-02-feedback/static/css/main.e6f2cf83.chunk.css",
+    "main.js": "/goit-react-hw-02-feedback/static/js/main.b9486c48.chunk.js",
+    "main.js.map": "/goit-react-hw-02-feedback/static/js/main.b9486c48.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-02-feedback/static/js/runtime-main.ddf747bf.js",
+    "runtime-main.js.map": "/goit-react-hw-02-feedback/static/js/runtime-main.ddf747bf.js.map",
+    "static/js/2.159c10ec.chunk.js": "/goit-react-hw-02-feedback/static/js/2.159c10ec.chunk.js",
+    "static/js/2.159c10ec.chunk.js.map": "/goit-react-hw-02-feedback/static/js/2.159c10ec.chunk.js.map",
+    "index.html": "/goit-react-hw-02-feedback/index.html",
+    "static/css/main.e6f2cf83.chunk.css.map": "/goit-react-hw-02-feedback/static/css/main.e6f2cf83.chunk.css.map",
+    "static/js/2.159c10ec.chunk.js.LICENSE.txt": "/goit-react-hw-02-feedback/static/js/2.159c10ec.chunk.js.LICENSE.txt",
+    "static/media/Statistics.module.css": "/goit-react-hw-02-feedback/static/media/retina_wood.5f685929.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddf747bf.js",
+    "static/js/2.159c10ec.chunk.js",
+    "static/css/main.e6f2cf83.chunk.css",
+    "static/js/main.b9486c48.chunk.js"
+  ]
+}
