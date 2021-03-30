@@ -19,7 +19,7 @@ export default class App extends Component {
   };
 
   countTotalFeedback = () => {
-    const totalVotes = Object.values(this.state).reduce((a, b) => a + b, 0);
+    const totalVotes = this.state.good + this.state.neutral + this.state.bad;
     return totalVotes;
   };
 
@@ -32,8 +32,8 @@ export default class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const Total = this.countTotalFeedback();
-    const Percentage = this.countPositiveFeedbackPercentage();
+    const total = this.countTotalFeedback();
+    const percentage = this.countPositiveFeedbackPercentage();
     const keys = Object.keys(this.state);
     return (
       <>
@@ -43,7 +43,7 @@ export default class App extends Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-        {Total === 0 ? (
+        {total === 0 ? (
           <Info text="No feedback given" />
         ) : (
           <Section title="Statistics">
@@ -51,8 +51,8 @@ export default class App extends Component {
               good={good}
               neutral={neutral}
               bad={bad}
-              Total={Total}
-              Percentage={Percentage}
+              Total={total}
+              Percentage={percentage}
             />
           </Section>
         )}
