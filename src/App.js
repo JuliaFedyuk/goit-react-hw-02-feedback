@@ -19,7 +19,9 @@ export default class App extends Component {
   };
 
   countTotalFeedback = () => {
-    const totalVotes = this.state.good + this.state.neutral + this.state.bad;
+    const { good, neutral, bad } = this.state;
+    const totalVotes = good + neutral + bad;
+
     return totalVotes;
   };
 
